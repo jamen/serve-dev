@@ -1,0 +1,15 @@
+{
+    "name": "@jamen/serve-dev",
+    "version": "0.4.0",
+    "description": "ZEIT's serve remade with auto-reloading and Make rebuilding.",
+    "author": "Jamen Marz <me@jamenmarz.com>",
+    "license": "MIT",
+    "bin": "src/serve-dev-cli.js",
+    "dependencies": {
+        "boxen": "^2.1.0",
+        "chalk": "^2.4.2",
+        "chokidar": "^2.0.4",
+        "mri": "^1.1.4",
+        "serve-handler": "^5.0.7"
+    }
+}
